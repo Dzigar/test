@@ -11,7 +11,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class ChartValueBean implements Comparable<ChartValueBean>{
+public class ChartValueBean {
 
 	@JsonProperty("name")
 	private String name;
